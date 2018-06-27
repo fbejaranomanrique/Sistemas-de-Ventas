@@ -294,7 +294,10 @@ private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FI
             JasperReport reportes=JasperCompileManager.compileReport("reportesClientes.jrxml");
             JasperPrint print=JasperFillManager.fillReport(reportes, null,cc.conexion());
             JasperViewer.viewReport(print);
+            //cabro
             
+            
+            //
         } catch (Exception e) {
             System.out.printf(e.getMessage());
         }
